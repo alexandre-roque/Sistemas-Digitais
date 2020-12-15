@@ -1,0 +1,30 @@
+# Reading F:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do decodificador_comportamental_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaDecodificador/decodificador_comportamental {F:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decodificador_comportamental
+# 
+# Top level modules:
+# 	decodificador_comportamental
+# 
+vsim work.decodificador_comportamental
+# vsim work.decodificador_comportamental 
+# Loading work.decodificador_comportamental
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Range -direction Up -period 200ps -step 1 -repeat forever -starttime 0ps -endtime 1000ps sim:/decodificador_comportamental/A
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Range -direction Up -period 400ps -step 1 -repeat forever -starttime 0ps -endtime 1000ps sim:/decodificador_comportamental/A
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Range -direction Up -period 200ps -step 1 -repeat forever -starttime 0ps -endtime 1000ps sim:/decodificador_comportamental/B
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Range -direction Up -period 100ps -step 1 -repeat forever -starttime 0ps -endtime 1000ps sim:/decodificador_comportamental/C
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Range -direction Up -period 50ps -step 1 -repeat forever -starttime 0ps -endtime 1000ps sim:/decodificador_comportamental/D
+add wave -position end  sim:/decodificador_comportamental/S
+run -all
+wave editwrite -file F:/altera/projetos/praticaDecodificador/decodificador_comportamental/simulation/modelsim/wave.do

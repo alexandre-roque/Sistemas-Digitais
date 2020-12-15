@@ -1,0 +1,8 @@
+|farolFluxo
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+F => S.IN0
+F => S.IN0
+P => S.IN1
+C => S.IN1
+
+

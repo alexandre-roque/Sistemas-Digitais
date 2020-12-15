@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, F:/altera/projetos/comparador/comparador1bit/comparador1bit.v
+source_file = 1, F:/altera/projetos/comparador/comparador1bit/db/comparador1bit.cbx.xml
+design_name = comparador1bit
+instance = comp, \Enable~I , Enable, comparador1bit, 1
+instance = comp, \B~I , B, comparador1bit, 1
+instance = comp, \A~I , A, comparador1bit, 1
+instance = comp, \Ig~0 , Ig~0, comparador1bit, 1
+instance = comp, \Ma~0 , Ma~0, comparador1bit, 1
+instance = comp, \Me~0 , Me~0, comparador1bit, 1
+instance = comp, \Ig~I , Ig, comparador1bit, 1
+instance = comp, \Ma~I , Ma, comparador1bit, 1
+instance = comp, \Me~I , Me, comparador1bit, 1

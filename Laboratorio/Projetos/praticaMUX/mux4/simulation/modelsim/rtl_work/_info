@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\mux4\simulation\modelsim
+vmux4
+IH@5c>fEQ[kbN9kgL:3?=D1
+VCMnzOIUJZ=nFT[3df>[jN1
+Z1 dF:\altera\projetos\mux4\simulation\modelsim
+Z2 w1603999082
+8F:/altera/projetos/mux4/mux4.v
+FF:/altera/projetos/mux4/mux4.v
+L0 7
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+!i10b 1
+!s100 SCCK_>d=B=9Izh^>Je:nj1
+!s85 0
+!s108 1604001379.296000
+!s107 F:/altera/projetos/mux4/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/mux4|F:/altera/projetos/mux4/mux4.v|
+!s101 -O0
+Z5 !s92 -vlog01compat -work work +incdir+F:/altera/projetos/mux4 -O0
+vmux_21
+!i10b 1
+!s100 E;CYN1Z5z]T;5ZT^@`VEm2
+IDohcdLF?gGo1nF9JhL3BS2
+VJN0i``2l_hiWZofzdAz><1
+R1
+R2
+8F:/altera/projetos/mux4/mux_21.v
+FF:/altera/projetos/mux4/mux_21.v
+L0 11
+R3
+r1
+!s85 0
+31
+!s108 1604001379.514000
+!s107 F:/altera/projetos/mux4/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/mux4|F:/altera/projetos/mux4/mux_21.v|
+!s101 -O0
+R4
+R5

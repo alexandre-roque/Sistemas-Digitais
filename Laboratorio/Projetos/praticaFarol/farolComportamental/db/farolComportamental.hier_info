@@ -1,0 +1,7 @@
+|farolComportamental
+S <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+F => Decoder0.IN0
+P => Decoder0.IN1
+C => Decoder0.IN2
+
+

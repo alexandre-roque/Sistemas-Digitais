@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\farolComportamental\simulation\modelsim
+vfarolComportamental
+!i10b 1
+!s100 :07[d96]W^DTB;c1>Qc0O2
+IzM^6IDazBCRiRHJzBoSnV1
+VLFGjOR:4z9T>JNI8WLRTR3
+Z1 dF:\altera\projetos\farolComportamental\simulation\modelsim
+w1603142352
+8F:/altera/projetos/farolComportamental/farolComportamental.v
+FF:/altera/projetos/farolComportamental/farolComportamental.v
+L0 21
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1603142509.542000
+!s107 F:/altera/projetos/farolComportamental/farolComportamental.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/farolComportamental|F:/altera/projetos/farolComportamental/farolComportamental.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/farolComportamental -O0
+nfarol@comportamental

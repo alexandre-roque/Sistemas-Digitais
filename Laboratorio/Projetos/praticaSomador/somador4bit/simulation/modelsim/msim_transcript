@@ -1,0 +1,36 @@
+# Reading F:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaSomador/somador4bit {F:/altera/projetos/praticaSomador/somador4bit/somador4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador4bit
+# 
+# Top level modules:
+# 	somador4bit
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaSomador/somador4bit {F:/altera/projetos/praticaSomador/somador4bit/somador1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador1bit
+# 
+# Top level modules:
+# 	somador1bit
+# 
+vsim work.somador4bit
+# vsim work.somador4bit 
+# Loading work.somador4bit
+# Loading work.somador1bit
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 100ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 5000ps sim:/somador4bit/X
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 5000ps sim:/somador4bit/Y
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/somador4bit/TE
+add wave -position end  sim:/somador4bit/TS
+add wave -position end  sim:/somador4bit/resultadoSoma
+run -all
+wave editwrite -file F:/altera/projetos/praticaSomador/somador4bit/simulation/modelsim/wave.do

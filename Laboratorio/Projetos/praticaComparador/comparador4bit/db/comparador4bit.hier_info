@@ -1,0 +1,74 @@
+|comparador4bit
+I[0] => I[0].IN1
+I[1] => I[1].IN1
+I[2] => I[2].IN1
+I[3] => I[3].IN1
+J[0] => J[0].IN1
+J[1] => J[1].IN1
+J[2] => J[2].IN1
+J[3] => J[3].IN1
+AIgualB <= comparador1bit:bloco0.port3
+AMaiorB <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+AMenorB <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco3
+A => Ma.IN0
+A => Ig.IN0
+A => Me.IN0
+B => Me.IN1
+B => Ig.IN1
+B => Ma.IN1
+Enable => Ma.IN1
+Enable => Me.IN1
+Enable => Ig.IN1
+Ig <= Ig.DB_MAX_OUTPUT_PORT_TYPE
+Ma <= Ma.DB_MAX_OUTPUT_PORT_TYPE
+Me <= Me.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco2
+A => Ma.IN0
+A => Ig.IN0
+A => Me.IN0
+B => Me.IN1
+B => Ig.IN1
+B => Ma.IN1
+Enable => Ma.IN1
+Enable => Me.IN1
+Enable => Ig.IN1
+Ig <= Ig.DB_MAX_OUTPUT_PORT_TYPE
+Ma <= Ma.DB_MAX_OUTPUT_PORT_TYPE
+Me <= Me.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco1
+A => Ma.IN0
+A => Ig.IN0
+A => Me.IN0
+B => Me.IN1
+B => Ig.IN1
+B => Ma.IN1
+Enable => Ma.IN1
+Enable => Me.IN1
+Enable => Ig.IN1
+Ig <= Ig.DB_MAX_OUTPUT_PORT_TYPE
+Ma <= Ma.DB_MAX_OUTPUT_PORT_TYPE
+Me <= Me.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco0
+A => Ma.IN0
+A => Ig.IN0
+A => Me.IN0
+B => Me.IN1
+B => Ig.IN1
+B => Ma.IN1
+Enable => Ma.IN1
+Enable => Me.IN1
+Enable => Ig.IN1
+Ig <= Ig.DB_MAX_OUTPUT_PORT_TYPE
+Ma <= Ma.DB_MAX_OUTPUT_PORT_TYPE
+Me <= Me.DB_MAX_OUTPUT_PORT_TYPE
+
+

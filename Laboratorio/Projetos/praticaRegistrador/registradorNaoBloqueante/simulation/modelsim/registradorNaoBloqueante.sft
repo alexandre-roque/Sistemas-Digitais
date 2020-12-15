@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {registradorNaoBloqueante.vo registradorNaoBloqueante_v.sdo}}
+	{{"Fast Model"} {registradorNaoBloqueante_fast.vo registradorNaoBloqueante_v_fast.sdo}}
+}

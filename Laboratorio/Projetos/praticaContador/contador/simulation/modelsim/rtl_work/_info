@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaContador\contador\simulation\modelsim
+vcontador
+!i10b 1
+!s100 Nd5:iDB36lngO7e4:J6R<1
+IbW`5h=hMR9B_1en>7XXRa0
+V8n][1M1]N:;Lo>j[3<FG^2
+Z1 dF:\altera\projetos\praticaContador\contador\simulation\modelsim
+w1607017532
+8F:/altera/projetos/praticaContador/contador/contador.v
+FF:/altera/projetos/praticaContador/contador/contador.v
+L0 8
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1607018521.035000
+!s107 F:/altera/projetos/praticaContador/contador/contador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaContador/contador|F:/altera/projetos/praticaContador/contador/contador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaContador/contador -O0

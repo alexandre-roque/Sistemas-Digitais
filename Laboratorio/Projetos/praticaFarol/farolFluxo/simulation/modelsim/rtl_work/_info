@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\farolFluxo\simulation\modelsim
+vfarolFluxo
+!i10b 1
+!s100 kKlz1d5l=JVj3B`I<SMZ>2
+Iag_UBMV3k_XcFV2ok:8iF3
+Vf@BHD8g?f@b=FMnfWaV1W0
+Z1 dF:\altera\projetos\farolFluxo\simulation\modelsim
+w1603131458
+8F:/altera/projetos/farolFluxo/farolFluxo.v
+FF:/altera/projetos/farolFluxo/farolFluxo.v
+L0 15
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1603143392.561000
+!s107 F:/altera/projetos/farolFluxo/farolFluxo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/farolFluxo|F:/altera/projetos/farolFluxo/farolFluxo.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/farolFluxo -O0
+nfarol@fluxo

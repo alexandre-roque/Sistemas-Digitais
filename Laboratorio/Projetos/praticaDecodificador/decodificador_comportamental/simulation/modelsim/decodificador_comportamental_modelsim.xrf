@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, F:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v
+source_file = 1, F:/altera/projetos/praticaDecodificador/decodificador_comportamental/db/decodificador_comportamental.cbx.xml
+design_name = decodificador_comportamental
+instance = comp, \A~I , A, decodificador_comportamental, 1
+instance = comp, \B~I , B, decodificador_comportamental, 1
+instance = comp, \C~I , C, decodificador_comportamental, 1
+instance = comp, \D~I , D, decodificador_comportamental, 1
+instance = comp, \a~I , a, decodificador_comportamental, 1
+instance = comp, \b~I , b, decodificador_comportamental, 1
+instance = comp, \c~I , c, decodificador_comportamental, 1
+instance = comp, \d~I , d, decodificador_comportamental, 1
+instance = comp, \e~I , e, decodificador_comportamental, 1
+instance = comp, \f~I , f, decodificador_comportamental, 1
+instance = comp, \g~I , g, decodificador_comportamental, 1

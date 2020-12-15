@@ -1,0 +1,44 @@
+# Reading F:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador1bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaSomador/somador1bit {F:/altera/projetos/praticaSomador/somador1bit/somador1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador1bit
+# 
+# Top level modules:
+# 	somador1bit
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaSomador/somador1bit {F:/altera/projetos/praticaSomador/somador1bit/testebench_somador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testebench_somador
+# 
+# Top level modules:
+# 	testebench_somador
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  testebench_somador
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testebench_somador 
+# Loading work.testebench_somador
+# Loading work.somador1bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/testebench_somador/TE_T
+change sim:/testebench_somador/TE_T 0
+force -freeze sim:/testebench_somador/TE_T 0 0
+force -drive sim:/testebench_somador/TE_T 01 0
+# ** Error: (vsim-3458) Cannot use the 'force -drive' command on a register.
+# 

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaRegistrador\registrador\simulation\modelsim
+vregistrador
+IkBHEE:2W1NUKGSV>BR]aU2
+VhXbLSV4O5H8h0GHAKjef>1
+Z1 dF:\altera\projetos\praticaRegistrador\registrador\simulation\modelsim
+w1606240124
+8F:/altera/projetos/praticaRegistrador/registrador/registrador.v
+FF:/altera/projetos/praticaRegistrador/registrador/registrador.v
+L0 8
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 a<HN=n=4:h>EGd7mRW=[O3
+!s85 0
+!s108 1606361367.158000
+!s107 F:/altera/projetos/praticaRegistrador/registrador/registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaRegistrador/registrador|F:/altera/projetos/praticaRegistrador/registrador/registrador.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaRegistrador/registrador -O0
+vtestebench_registrador
+!i10b 1
+!s100 @T75XRMded4S:oOej;?2>2
+IUmS94aYN[8TlY[U?lgb`a2
+VB`=G;P^bM3B6M;na:MHCb0
+R1
+w1606361263
+8F:/altera/projetos/praticaRegistrador/registrador/testebench_registrador.v
+FF:/altera/projetos/praticaRegistrador/registrador/testebench_registrador.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1606361367.511000
+!s107 F:/altera/projetos/praticaRegistrador/registrador/testebench_registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaRegistrador/registrador|F:/altera/projetos/praticaRegistrador/registrador/testebench_registrador.v|
+!s101 -O0
+R3
+R4

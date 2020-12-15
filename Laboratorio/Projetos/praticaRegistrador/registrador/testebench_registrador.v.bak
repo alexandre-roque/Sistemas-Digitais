@@ -1,0 +1,29 @@
+/*
+Prática Registrador
+Alunos: Alexandre Roque, Henrique Coelho e Vitor Santana
+Disciplina: Sistemas Digitais
+Professora: Mara Coelho
+*/
+
+module testebench_registrador;
+	//variaveis intermediarias 
+	reg Clock_T, Reset_T, In_T;
+	
+	wire Q0_T,Q1_T,Q2_T,Q3_T;
+	//registrador(Clock, Reset, In, Q0,Q1,Q2,Q3);
+	
+	registrador dut (Clock_T, Reset_T, In_T, Q0_T,Q1_T,Q2_T,Q3_T);
+	
+	initial
+		begin
+			repeat (5)
+				begin
+					TE_T = 0;
+					X_T = 0; Y_T = 0;  #30
+					X_T = 0; Y_T = 1;  #30
+					X_T = 1; Y_T = 0;  #30
+					X_T = 1; Y_T = 1;  #30;
+					
+				end //repeat
+		end //initial
+endmodule

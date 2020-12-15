@@ -1,0 +1,16 @@
+/*
+Prática Registrador
+Alunos: Alexandre Roque
+Disciplina: Sistemas Digitais
+Professora: Mara Coelho
+*/
+
+module registrador(X,Y,TE,S,TS);
+
+	input X,Y,TE;
+	output S,TS;
+	
+	assign S = X ^ Y ^ TE;
+	assign TS = (Y & TE) | (X & TE) | (X & Y);
+
+endmodule

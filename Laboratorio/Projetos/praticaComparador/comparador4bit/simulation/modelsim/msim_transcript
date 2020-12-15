@@ -1,0 +1,42 @@
+# Reading F:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comparador4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/comparador/comparador4bit {F:/altera/projetos/comparador/comparador4bit/comparador1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador1bit
+# 
+# Top level modules:
+# 	comparador1bit
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/comparador/comparador4bit {F:/altera/projetos/comparador/comparador4bit/comparador4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador4bit
+# 
+# Top level modules:
+# 	comparador4bit
+# 
+vsim work.comparador4bit
+# vsim work.comparador4bit 
+# Loading work.comparador4bit
+# Loading work.comparador1bit
+# ** Warning: (vsim-3015) F:/altera/projetos/comparador/comparador4bit/comparador4bit.v(19): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Enable'. The port definition is at: F:/altera/projetos/comparador/comparador4bit/comparador1bit.v(6).
+# 
+#         Region: /comparador4bit/bloco3
+wave create -driver freeze -pattern random -initialvalue zzzz -period 50ps -random_type Uniform -seed 5 -range 3 0 -starttime 0ps -endtime 1000ps sim:/comparador4bit/I
+wave create -driver freeze -pattern random -initialvalue zzzz -period 50ps -random_type Uniform -seed 10 -range 3 0 -starttime 0ps -endtime 1000ps sim:/comparador4bit/J
+add wave -position end  sim:/comparador4bit/auxIgual
+add wave -position end  sim:/comparador4bit/auxMaior
+add wave -position end  sim:/comparador4bit/auxMenor
+add wave -position end  sim:/comparador4bit/AIgualB
+add wave -position end  sim:/comparador4bit/AMaiorB
+add wave -position end  sim:/comparador4bit/AMenorB
+run -all
+wave editwrite -file F:/altera/projetos/comparador/comparador4bit/simulation/modelsim/wave.do

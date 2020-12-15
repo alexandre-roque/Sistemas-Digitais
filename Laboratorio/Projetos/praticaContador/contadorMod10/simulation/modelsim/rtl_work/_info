@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaContador\contadorMod10\simulation\modelsim
+vcontadorMod10
+!i10b 1
+!s100 SZJF80UDKkdFClBP[F5cP2
+I;Wc8KFYCOYg@FQle7P:oC0
+V0C>dGW3SGgZ6MN7>@WKzT2
+Z1 dF:\altera\projetos\praticaContador\contadorMod10\simulation\modelsim
+w1607020025
+8F:/altera/projetos/praticaContador/contadorMod10/contadorMod10.v
+FF:/altera/projetos/praticaContador/contadorMod10/contadorMod10.v
+L0 7
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1607020075.418000
+!s107 F:/altera/projetos/praticaContador/contadorMod10/contadorMod10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaContador/contadorMod10|F:/altera/projetos/praticaContador/contadorMod10/contadorMod10.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaContador/contadorMod10 -O0
+ncontador@mod10

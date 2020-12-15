@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaRegistrador\registradorNaoBloqueante\simulation\modelsim
+vregistradorNaoBloqueante
+IdiTbbcja3T_goMj0g?]m:1
+V:mGZNCRN`d=`E[T_go>J60
+Z1 dF:\altera\projetos\praticaRegistrador\registradorNaoBloqueante\simulation\modelsim
+w1606363216
+8F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/registradorNaoBloqueante.v
+FF:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/registradorNaoBloqueante.v
+L0 8
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nregistrador@nao@bloqueante
+!i10b 1
+!s100 Ti7zg6lLdMd4@jJ2gEg?`1
+!s85 0
+!s108 1606363358.465000
+!s107 F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/registradorNaoBloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante|F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/registradorNaoBloqueante.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante -O0
+vtestebench_registrador
+!i10b 1
+!s100 8M;aJYc=YEX5FBIYBPT<M2
+I>:gH<@zaWN1d8iL_7cd@j2
+VB`=G;P^bM3B6M;na:MHCb0
+R1
+w1606363324
+8F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/testebench_registrador.v
+FF:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/testebench_registrador.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1606363358.641000
+!s107 F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/testebench_registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante|F:/altera/projetos/praticaRegistrador/registradorNaoBloqueante/testebench_registrador.v|
+!s101 -O0
+R3
+R4

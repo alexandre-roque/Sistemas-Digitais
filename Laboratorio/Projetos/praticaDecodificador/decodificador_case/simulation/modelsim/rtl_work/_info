@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaDecodificador\decodificador_case\simulation\modelsim
+vdecodificador_case
+!i10b 1
+!s100 IJNTn^k5fz8LH^NS:g:ib0
+II^>>:Ce6PI?ze<c`9>[;Y0
+VWQAH[TQbG<5@m46UEieI22
+Z1 dF:\altera\projetos\praticaDecodificador\decodificador_case\simulation\modelsim
+w1605208838
+8F:/altera/projetos/praticaDecodificador/decodificador_case/decodificador_case.v
+FF:/altera/projetos/praticaDecodificador/decodificador_case/decodificador_case.v
+L0 6
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1605208869.406000
+!s107 F:/altera/projetos/praticaDecodificador/decodificador_case/decodificador_case.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaDecodificador/decodificador_case|F:/altera/projetos/praticaDecodificador/decodificador_case/decodificador_case.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaDecodificador/decodificador_case -O0

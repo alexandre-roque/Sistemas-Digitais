@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\mux_21\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 ejcPXf<4MXoeTY6oP?``e1
+ILgTIz?WKW:f0MXkc2Q3L=1
+VJN0i``2l_hiWZofzdAz><1
+Z1 dF:\altera\projetos\mux_21\simulation\modelsim
+w1604064222
+8F:/altera/projetos/mux_21/mux_21.v
+FF:/altera/projetos/mux_21/mux_21.v
+L0 7
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604064324.514000
+!s107 F:/altera/projetos/mux_21/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/mux_21|F:/altera/projetos/mux_21/mux_21.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/mux_21 -O0

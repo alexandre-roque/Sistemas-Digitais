@@ -1,0 +1,14 @@
+|decodificador_comportamental
+A => ~NO_FANOUT~
+B => ~NO_FANOUT~
+C => ~NO_FANOUT~
+D => ~NO_FANOUT~
+a <= <GND>
+b <= <GND>
+c <= <GND>
+d <= <GND>
+e <= <GND>
+f <= <GND>
+g <= <GND>
+
+

@@ -1,0 +1,14 @@
+/* Prática "Decodificador"
+Aluno: Alexandre Roque Silva de Paula
+Professora: Mara Coelho
+Disciplina: Sistemas Digitais |*/
+
+module decodificador_comportamental(A,B,C,D, a,b,c,d,e,g);
+
+	input A,B,C,D;
+	output reg a,b,c,d,e,g;
+	
+	
+
+
+endmodule

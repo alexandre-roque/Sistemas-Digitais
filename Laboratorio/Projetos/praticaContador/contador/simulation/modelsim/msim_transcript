@@ -1,0 +1,45 @@
+# Reading F:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaContador/contador {F:/altera/projetos/praticaContador/contador/contador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contador
+# 
+# Top level modules:
+# 	contador
+# 
+vsim work.contador
+# vsim work.contador 
+# Loading work.contador
+do F:/altera/projetos/praticaContador/contador/simulation/modelsim/contador_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+F:/altera/projetos/praticaContador/contador {F:/altera/projetos/praticaContador/contador/contador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contador
+# 
+# Top level modules:
+# 	contador
+# 
+do F:/altera/projetos/praticaContador/contador/simulation/modelsim/wave.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0
+add wave -position end  sim:/contador/reset
+wave create -driver freeze -pattern repeater -initialvalue HiZ -period 20ps -sequence { 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   } -repeat forever -starttime 0ps -endtime 2000ps sim:/contador/preset
+add wave -position end  sim:/contador/Q
+run -all
+wave editwrite -file F:/altera/projetos/praticaContador/contador/simulation/modelsim/wave2

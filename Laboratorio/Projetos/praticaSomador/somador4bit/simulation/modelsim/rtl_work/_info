@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaSomador\somador4bit\simulation\modelsim
+vsomador1bit
+!i10b 1
+!s100 9FYO_KohOe<?9EVKokl_T3
+IPHQT?MjUTA31CGL2gL@VE1
+VSgHY5BAFQ8N2i^;OgAiE?1
+Z1 dF:\altera\projetos\praticaSomador\somador4bit\simulation\modelsim
+w1605617862
+8F:/altera/projetos/praticaSomador/somador4bit/somador1bit.v
+FF:/altera/projetos/praticaSomador/somador4bit/somador1bit.v
+L0 8
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1605624004.458000
+!s107 F:/altera/projetos/praticaSomador/somador4bit/somador1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaSomador/somador4bit|F:/altera/projetos/praticaSomador/somador4bit/somador1bit.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaSomador/somador4bit -O0
+vsomador4bit
+IiWXlRU`92P3=jD95PA0mZ2
+Va680F_f_T751E;Ze56Sao1
+R1
+w1605619197
+8F:/altera/projetos/praticaSomador/somador4bit/somador4bit.v
+FF:/altera/projetos/praticaSomador/somador4bit/somador4bit.v
+L0 8
+R2
+r1
+31
+R3
+!i10b 1
+!s100 eH]Qj8^ohQBD`lXWz8G=D1
+!s85 0
+!s108 1605624004.279000
+!s107 F:/altera/projetos/praticaSomador/somador4bit/somador4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaSomador/somador4bit|F:/altera/projetos/praticaSomador/somador4bit/somador4bit.v|
+!s101 -O0
+R4

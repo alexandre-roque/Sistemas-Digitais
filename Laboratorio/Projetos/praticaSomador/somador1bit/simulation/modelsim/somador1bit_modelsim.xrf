@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, F:/altera/projetos/praticaSomador/somador1bit/somador1bit.v
+source_file = 1, F:/altera/projetos/praticaSomador/somador1bit/testebench_somador.v
+source_file = 1, F:/altera/projetos/praticaSomador/somador1bit/db/somador1bit.cbx.xml
+design_name = somador1bit
+instance = comp, \X~I , X, somador1bit, 1
+instance = comp, \TE~I , TE, somador1bit, 1
+instance = comp, \Y~I , Y, somador1bit, 1
+instance = comp, \S~0 , S~0, somador1bit, 1
+instance = comp, \TS~0 , TS~0, somador1bit, 1
+instance = comp, \S~I , S, somador1bit, 1
+instance = comp, \TS~I , TS, somador1bit, 1

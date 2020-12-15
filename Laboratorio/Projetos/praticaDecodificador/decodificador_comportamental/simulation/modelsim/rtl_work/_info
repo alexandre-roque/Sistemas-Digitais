@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\altera\projetos\praticaDecodificador\decodificador_comportamental\simulation\modelsim
+vdecodificador_comportamental
+!i10b 1
+!s100 Co3iOo5fz[=dQIXIS7TeU3
+IoY82<6Tf:8:?3CbFZ:R2C0
+V8;ji5E0l11g4E2bbF;[Lb1
+Z1 dF:\altera\projetos\praticaDecodificador\decodificador_comportamental\simulation\modelsim
+w1605207077
+8F:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v
+FF:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v
+L0 6
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1605214157.765000
+!s107 F:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/altera/projetos/praticaDecodificador/decodificador_comportamental|F:/altera/projetos/praticaDecodificador/decodificador_comportamental/decodificador_comportamental.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+F:/altera/projetos/praticaDecodificador/decodificador_comportamental -O0

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, F:/altera/projetos/farolFluxo/farolFluxo.v
+source_file = 1, F:/altera/projetos/farolFluxo/db/farolFluxo.cbx.xml
+design_name = farolFluxo
+instance = comp, \C~I , C, farolFluxo, 1
+instance = comp, \F~I , F, farolFluxo, 1
+instance = comp, \P~I , P, farolFluxo, 1
+instance = comp, \S~0 , S~0, farolFluxo, 1
+instance = comp, \S~I , S, farolFluxo, 1

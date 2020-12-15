@@ -1,0 +1,15 @@
+|comparador1bit
+A => Ma.IN0
+A => Ig.IN0
+A => Me.IN0
+B => Me.IN1
+B => Ig.IN1
+B => Ma.IN1
+Enable => Ma.IN1
+Enable => Me.IN1
+Enable => Ig.IN1
+Ig <= Ig.DB_MAX_OUTPUT_PORT_TYPE
+Ma <= Ma.DB_MAX_OUTPUT_PORT_TYPE
+Me <= Me.DB_MAX_OUTPUT_PORT_TYPE
+
+
